@@ -26,30 +26,3 @@
   <img src="https://raw.githubusercontent.com/KRISHNA_USERNAME/KRISHNA_USERNAME/output/github-contribution-grid-snake.svg" alt="Snake Graph" />
 </p>
 
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *" # Har raat 12 baje auto-update hoga
-  workflow_dispatch: # Tumhe manual run karne ka button dega
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate Snake Animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-
-      - name: Push to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
