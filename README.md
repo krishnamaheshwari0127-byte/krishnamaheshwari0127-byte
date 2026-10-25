@@ -5,6 +5,12 @@
 <p align="center">
   <em>Building digital solutions & cracking problems on LeetCode 🚀</em>
 </p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/krishna-maheshwari-267395323">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
 <br/>
 
 ### 🛠️ What I Use
@@ -18,11 +24,10 @@
 - 🔭 Currently building: **Apna Latest Project Yahan Likho**
 - 💡 Exploring: **Nayi Skill Yahan Likho**
 - 🤝 Open to collaborate on: **Open Source Projects**
-- 📬 How to reach me: **Apna LinkedIn URL Yahan Dalo**
+- 📬 How to reach me: **[Connect on LinkedIn](https://www.linkedin.com/in/krishna-maheshwari-267395323)**
 
 ### 🐍 Contribution Graph
 <p align="center">
   <!-- 'KRISHNA_USERNAME' ko apne asli GitHub handle se replace karna -->
   <img src="https://raw.githubusercontent.com/KRISHNA_USERNAME/KRISHNA_USERNAME/output/github-contribution-grid-snake.svg" alt="Snake Graph" />
 </p>
-
